@@ -1,0 +1,23 @@
+{"tab_config":
+{
+	"title":"Clean",
+	"position": "2",
+	"subnav": [
+	{
+		"title":"Drop NA",
+		"position": 0,
+		"input":[
+			{"field_name":"dataframe",
+			 "label":"dataframe",
+			 "widget_type":"text"}
+					],
+		"output":{"code_format":"{dataframe} = {dataframe}.dropna()"}
+					
+	},
+	{
+		"title":"Delete Duplicates",
+		"position": 1
+	}
+	]
+}
+}

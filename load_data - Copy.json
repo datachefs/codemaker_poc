@@ -1,0 +1,46 @@
+{"tab_config": 
+{
+	"title": "Load",
+	"test": "colors", 
+	"subnav":  [
+	{
+		"title": "Load a File",
+		"position": 0,
+		"input":[
+			{"field_name":"dataframe",
+			 "label":"dataframe",
+			 "widget_type":"text"},
+			{"field_name":"file",
+			 "label":"file to read in",
+			 "widget_type":"text"}
+					],
+		"template": "{dataframe} = pd.read_table('{file}')",
+		"tutorial": "A tutorial plus links on loading a file"
+	}, 
+	{
+		"title": "Fix up Columns",
+		"position": 1,
+		"input":[
+			{"field_name":"dataframe",
+			 "label":"dataframe",
+			 "widget_type":"text"}
+					],
+		"tutorial": "A tutorial plus links on fixing up columns"
+	},
+	{
+		"title": "A Third Command",
+		"position": 2,
+		"input":[
+			{"field_name":"dataframe",
+			 "label":"field 1",
+			 "widget_type":"text"},
+			{"field_name":"dataframe2",
+			 "label":"field 2",
+			 "widget_type":"text"}
+					],
+		"tutorial": "The third command does not give any tutorials<br/> If you don't know what the third command is,<br/> you cannot be told"
+	}
+	]
+}
+}
+
